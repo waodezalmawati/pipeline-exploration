@@ -1,0 +1,70 @@
+[2026-06-23T03:53:57.819+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-06-23T03:53:57.860+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: viscon_minio_to_clickhouse.extract_and_load_viscon_task scheduled__2026-06-19T07:30:00+00:00 [queued]>
+[2026-06-23T03:53:57.869+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: viscon_minio_to_clickhouse.extract_and_load_viscon_task scheduled__2026-06-19T07:30:00+00:00 [queued]>
+[2026-06-23T03:53:57.870+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2026-06-23T03:53:57.904+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_and_load_viscon_task> on 2026-06-19 07:30:00+00:00
+[2026-06-23T03:53:57.911+0000] {standard_task_runner.py:63} INFO - Started process 228 to run task
+[2026-06-23T03:53:57.917+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'viscon_minio_to_clickhouse', 'extract_and_load_viscon_task', 'scheduled__2026-06-19T07:30:00+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/dag_minio_clickhouse.py', '--cfg-path', '/tmp/tmptckxwiil']
+[2026-06-23T03:53:57.921+0000] {standard_task_runner.py:91} INFO - Job 53: Subtask extract_and_load_viscon_task
+[2026-06-23T03:53:58.015+0000] {task_command.py:426} INFO - Running <TaskInstance: viscon_minio_to_clickhouse.extract_and_load_viscon_task scheduled__2026-06-19T07:30:00+00:00 [running]> on host a83b825d79a2
+[2026-06-23T03:53:58.186+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineering_team' AIRFLOW_CTX_DAG_ID='viscon_minio_to_clickhouse' AIRFLOW_CTX_TASK_ID='extract_and_load_viscon_task' AIRFLOW_CTX_EXECUTION_DATE='2026-06-19T07:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-19T07:30:00+00:00'
+[2026-06-23T03:53:58.187+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-06-23T03:53:58.572+0000] {base.py:84} INFO - Using connection ID 'minio_conn_id' for task execution.
+[2026-06-23T03:53:58.574+0000] {logging_mixin.py:188} INFO - minio_conn minio_conn_id
+[2026-06-23T03:53:58.574+0000] {logging_mixin.py:188} INFO - minio_conn.host 
+[2026-06-23T03:53:58.575+0000] {logging_mixin.py:188} INFO - minio_conn.port None
+[2026-06-23T03:53:58.575+0000] {logging_mixin.py:188} INFO - minio_conn.login rjOLAir5n9kcnZVMXPYd
+[2026-06-23T03:53:58.575+0000] {logging_mixin.py:188} INFO - minio_conn.password ***
+[2026-06-23T03:53:58.576+0000] {logging_mixin.py:188} INFO - minio_conn.extra_dejson {'endpoint_url': '172.17.252.103:9000'}
+[2026-06-23T03:53:58.576+0000] {logging_mixin.py:188} INFO - Membaca data langsung dari memori: s3://transplant-data-backup/final_plant_result/20260618-Good-transplant-data.csv
+[2026-06-23T03:54:00.711+0000] {base.py:84} INFO - Using connection ID 'clickhouse_http_conn_id' for task execution.
+[2026-06-23T03:54:00.712+0000] {logging_mixin.py:188} INFO - Membuka koneksi ke ClickHouse di 172.17.253.181:8123
+[2026-06-23T03:54:00.975+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-06-23T03:54:00.976+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_minio_clickhouse.py", line 84, in _process_viscon_data
+    client = clickhouse_connect.get_client(
+  File "/home/airflow/.local/lib/python3.10/site-packages/clickhouse_connect/driver/__init__.py", line 223, in create_client
+    return HttpClient(
+  File "/home/airflow/.local/lib/python3.10/site-packages/clickhouse_connect/driver/httpclient.py", line 216, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.10/site-packages/clickhouse_connect/driver/client.py", line 192, in __init__
+    self._init_common_settings(resolved_tz_source)
+  File "/home/airflow/.local/lib/python3.10/site-packages/clickhouse_connect/driver/client.py", line 223, in _init_common_settings
+    server_settings = self.query(f"SELECT name, value, {readonly} as readonly FROM system.settings LIMIT 10000")
+  File "/home/airflow/.local/lib/python3.10/site-packages/clickhouse_connect/driver/client.py", line 382, in query
+    return self._query_with_context(query_context)
+  File "/home/airflow/.local/lib/python3.10/site-packages/clickhouse_connect/driver/httpclient.py", line 339, in _query_with_context
+    response = self._raw_request(
+  File "/home/airflow/.local/lib/python3.10/site-packages/clickhouse_connect/driver/httpclient.py", line 645, in _raw_request
+    self._error_handler(response)
+  File "/home/airflow/.local/lib/python3.10/site-packages/clickhouse_connect/driver/httpclient.py", line 537, in _error_handler
+    raise err_type(err_str, code=code, name=name) from None
+clickhouse_connect.driver.exceptions.DatabaseError: Received ClickHouse exception, code: 75, server response: Code: 75. DB::ErrnoException: Cannot write to file /var/lib/clickhouse/tmp/tmp0be0a467-f7de-4be7-9707-1ac5e334f7f9: , errno: 28, strerror: No space left on device. (CANNOT_WRITE_TO_FILE_DESCRIPTOR)
+Total space: 22.94 GiB
+Available space: 0.00 B
+Total inodes: 1.54 million
+Available inodes: 1.21 million
+Mount point: /var/lib/clickhouse
+Filesystem: /dev/mapper/ubuntu--vg-ubuntu--lv (version 26.5.1.882 (official build)) (for url http://172.17.253.181:8123)
+[2026-06-23T03:54:00.993+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=viscon_minio_to_clickhouse, task_id=extract_and_load_viscon_task, run_id=scheduled__2026-06-19T07:30:00+00:00, execution_date=20260619T073000, start_date=20260623T035357, end_date=20260623T035400
+[2026-06-23T03:54:01.011+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 53 for task extract_and_load_viscon_task (Received ClickHouse exception, code: 75, server response: Code: 75. DB::ErrnoException: Cannot write to file /var/lib/clickhouse/tmp/tmp0be0a467-f7de-4be7-9707-1ac5e334f7f9: , errno: 28, strerror: No space left on device. (CANNOT_WRITE_TO_FILE_DESCRIPTOR)
+Total space: 22.94 GiB
+Available space: 0.00 B
+Total inodes: 1.54 million
+Available inodes: 1.21 million
+Mount point: /var/lib/clickhouse
+Filesystem: /dev/mapper/ubuntu--vg-ubuntu--lv (version 26.5.1.882 (official build)) (for url http://172.17.253.181:8123); 228)
+[2026-06-23T03:54:01.080+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-06-23T03:54:01.114+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-23T03:54:01.118+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

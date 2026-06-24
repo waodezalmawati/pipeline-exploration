@@ -1,0 +1,19 @@
+version: "3"
+services:
+  grafana:
+    image: grafana/grafana:11.2.2
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+    - "3001:3000" 
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: gr4f4n4
+      TZ: Asia/Singapore
+      GF_SERVER_HTTP_ADDR: 0.0.0.0
+      GF_FEATURE_TOGGLES_ENABLE: regressionTransformation
+   # network_mode: "host"
+    volumes:
+    - grafana-storage:/var/lib/grafana
+volumes:
+  grafana-storage:
