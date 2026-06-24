@@ -1034,3 +1034,164 @@
 [2026-06-24T04:18:42.078+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:18:42.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-24T04:18:42.130+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:18:42.130+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
 [2026-06-24T04:18:42.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.210 seconds
+[2026-06-24T04:19:12.341+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:19:12.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:19:12.343+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:19:12.343+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:19:12.354+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:19:12.394+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:19:12.394+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:19:12.427+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:19:12.426+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:19:12.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.118 seconds
+[2026-06-24T04:19:42.784+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:19:42.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:19:42.841+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:19:42.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:19:42.857+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:19:42.902+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:19:42.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:19:42.935+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:19:42.934+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:19:42.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.187 seconds
+[2026-06-24T04:20:13.135+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:20:13.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:20:13.139+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:20:13.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:20:13.157+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:20:13.214+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:20:13.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:20:13.258+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:20:13.258+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:20:13.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.167 seconds
+[2026-06-24T04:20:43.429+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:20:43.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:20:43.434+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:20:43.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:20:43.447+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:20:43.490+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:20:43.489+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:20:43.522+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:20:43.521+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:20:43.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.129 seconds
+[2026-06-24T04:21:13.758+0000] {processor.py:161} INFO - Started process (PID=345) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:21:13.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:21:13.763+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:21:13.762+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:21:13.777+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:21:13.820+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:21:13.820+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:21:13.853+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:21:13.853+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:21:13.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.129 seconds
+[2026-06-24T04:21:44.211+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:21:44.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:21:44.216+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:21:44.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:21:44.229+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:21:44.277+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:21:44.276+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:21:44.320+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:21:44.319+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:21:44.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.167 seconds
+[2026-06-24T04:22:14.552+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:22:14.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:22:14.556+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:22:14.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:22:14.570+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:22:14.615+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:22:14.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:22:14.646+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:22:14.646+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:22:14.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.137 seconds
+[2026-06-24T04:22:44.888+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:22:44.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:22:44.894+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:22:44.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:22:44.909+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:22:44.958+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:22:44.958+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:22:44.992+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:22:44.992+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:22:45.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.144 seconds
+[2026-06-24T04:23:15.263+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:23:15.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:23:15.266+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:23:15.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:23:15.284+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:23:15.334+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:23:15.334+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:23:15.374+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:23:15.374+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:23:15.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.154 seconds
+[2026-06-24T04:23:45.602+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:23:45.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:23:45.606+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:23:45.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:23:45.622+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:23:45.665+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:23:45.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:23:45.696+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:23:45.696+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:23:45.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.138 seconds
+[2026-06-24T04:24:15.985+0000] {processor.py:161} INFO - Started process (PID=375) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:24:15.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:24:15.990+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:24:15.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:24:16.008+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:24:16.059+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:24:16.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:24:16.095+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:24:16.094+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:24:16.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.145 seconds
+[2026-06-24T04:24:46.378+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:24:46.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:24:46.382+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:24:46.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:24:46.398+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:24:46.447+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:24:46.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:24:46.479+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:24:46.479+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:24:46.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.136 seconds
+[2026-06-24T04:25:16.772+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:25:16.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:25:16.775+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:25:16.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:25:16.788+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:25:16.829+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:25:16.829+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:25:16.865+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:25:16.864+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:25:16.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.131 seconds
+[2026-06-24T04:25:47.130+0000] {processor.py:161} INFO - Started process (PID=390) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:25:47.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:25:47.134+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:25:47.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:25:47.149+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:25:47.190+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:25:47.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:25:47.225+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:25:47.224+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:25:47.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.131 seconds
+[2026-06-24T04:26:17.467+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:26:17.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:26:17.470+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:26:17.470+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:26:17.487+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:26:17.528+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:26:17.528+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:26:17.560+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:26:17.560+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:26:17.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.135 seconds
+[2026-06-24T04:26:47.824+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:26:47.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:26:47.830+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:26:47.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:26:47.845+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:26:47.897+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:26:47.897+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:26:47.938+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:26:47.938+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:26:47.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.159 seconds
+[2026-06-24T04:27:18.448+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:27:18.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:27:18.453+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:27:18.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:27:18.469+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:27:18.517+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:27:18.517+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:27:18.556+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:27:18.555+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:27:18.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.149 seconds
+[2026-06-24T04:27:48.721+0000] {processor.py:161} INFO - Started process (PID=410) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:27:48.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:27:48.726+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:27:48.726+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:27:48.743+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:27:48.796+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:27:48.796+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:27:48.830+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:27:48.830+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:27:48.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.159 seconds
+[2026-06-24T04:28:19.223+0000] {processor.py:161} INFO - Started process (PID=415) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:28:19.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:28:19.228+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:28:19.228+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:28:19.242+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:28:19.285+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:28:19.285+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:28:19.319+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:28:19.318+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:28:19.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.134 seconds
+[2026-06-24T04:28:49.535+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:28:49.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:28:49.538+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:28:49.538+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:28:49.549+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:28:49.590+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:28:49.590+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:28:49.621+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:28:49.621+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:28:49.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.125 seconds
+[2026-06-24T04:29:19.905+0000] {processor.py:161} INFO - Started process (PID=425) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:29:19.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:29:19.909+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:29:19.909+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:29:19.923+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:29:19.977+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:29:19.977+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:29:20.021+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:29:20.021+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:29:20.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.160 seconds
+[2026-06-24T04:29:50.256+0000] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:29:50.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:29:50.259+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:29:50.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:29:50.273+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:29:50.318+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:29:50.317+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:29:50.352+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:29:50.352+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:29:50.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.144 seconds
+[2026-06-24T04:30:20.630+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:30:20.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_minio_clickhouse.py for tasks to queue
+[2026-06-24T04:30:20.635+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:30:20.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:30:20.654+0000] {processor.py:840} INFO - DAG(s) 'viscon_minio_to_clickhouse' retrieved from /opt/airflow/dags/dag_minio_clickhouse.py
+[2026-06-24T04:30:20.704+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:30:20.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-24T04:30:20.737+0000] {logging_mixin.py:188} INFO - [2026-06-24T04:30:20.736+0000] {dag.py:3954} INFO - Setting next_dagrun for viscon_minio_to_clickhouse to 2026-06-23 07:30:00+00:00, run_after=2026-06-24 07:30:00+00:00
+[2026-06-24T04:30:20.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_minio_clickhouse.py took 0.149 seconds
